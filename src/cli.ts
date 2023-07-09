@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import * as pkg from '../package.json';
+import pkg from '../package.json';
 
 const program = new Command();
 program

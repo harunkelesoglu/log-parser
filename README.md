@@ -24,8 +24,16 @@ If any of the AC is not met, the task will be rejected automatically.
 
 #### Expected Usage
 
+to be able to build:
+
 ```bash
-node parser.js --input ./app.log --output ./errors.json
+npm run build
+```
+
+to be able to run:
+
+```bash
+node dist/parser.js --input ./app.log --output ./errors.json
 ```
 
 #### Input Format

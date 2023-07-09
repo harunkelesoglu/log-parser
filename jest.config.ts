@@ -6,9 +6,9 @@ const config: Config.InitialOptions = {
   moduleFileExtensions: ['ts', 'tsx', 'js'],
   testMatch: ['/**/*.spec.(ts|tsx|js)'],
   globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.json',
-    },
+    transform: {
+        '^.+\\.tsx?$': 'ts-jest',
+      },
   },
 };
 

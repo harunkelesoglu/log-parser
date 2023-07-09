@@ -2,12 +2,19 @@
   "name": "nodejs-logger-qzwrrn",
   "version": "1.0.0",
   "description": "CLI to parse log files",
-  "main": "dist/index.js",
+  "main": "dist/parser.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/parser.js",
+    "debug": "ts-node src/parser.ts",
     "test": "jest --config=jest.config.ts"
   },
   "author": "harun.kelesoglu19@gmail.com",
   "license": "ISC",
+  "engines": {
+    "npm": ">=9.5.1",
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.2",
     "@types/node": "^20.4.1",
