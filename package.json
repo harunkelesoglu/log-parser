@@ -1,5 +1,5 @@
 {
-  "name": "@harunkelesoglu/log-parser",
+  "name": "@kelesoglu/log-parser",
   "version": "1.0.0",
   "description": "CLI to parse log files",
   "main": "dist/parser.js",

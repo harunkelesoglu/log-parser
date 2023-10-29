@@ -9,7 +9,7 @@ Before using the Log Parser CLI, make sure you have Node.js and npm installed on
 To install the Log Parser CLI, you can use npm. Open your terminal and run the following command:
 
 ```bash
-npm install -g log-parser
+npm install -g @kelesoglu/log-parser
 ```
 
 This command installs the Log Parser CLI globally, making it available as a command-line tool.
@@ -78,7 +78,7 @@ If you want to build the Log Parser CLI from source, you can follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/log-parser-cli.git
+git clone https://github.com/harunkelesoglu/log-parser.git
 ```
 
 2. Change the working directory to the project folder:
