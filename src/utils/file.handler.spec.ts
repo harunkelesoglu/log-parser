@@ -1,4 +1,4 @@
-import { FileHandler } from "./file.handler";
+import { FileHandler } from './file.handler';
 import fs from 'fs';
 import readline from 'readline/promises';
 

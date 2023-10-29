@@ -1,4 +1,4 @@
-import { SupportedFilesRgx } from "../constants";
+import { SupportedFilesRgx } from '../constants';
 
 /**
  * A validator class for format validation operations.

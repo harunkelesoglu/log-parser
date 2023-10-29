@@ -1,6 +1,7 @@
 export interface ILogEntry {
     timestamp: number;
     logLevel: string;
+    details: string;
     transactionId: string;
-    err?: string
+    error?: string;
 }
