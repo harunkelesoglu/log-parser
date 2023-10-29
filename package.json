@@ -1,5 +1,5 @@
 {
-  "name": "@keles0glu/log-parser",
+  "name": "@harunkelesoglu/log-parser",
   "version": "1.0.0",
   "description": "CLI to parse log files",
   "main": "dist/parser.js",
@@ -7,6 +7,16 @@
     "log-parser": "./bin/log-parser"
   },
   "preferGlobal": true,
+  "author": "https://github.com/harunkelesoglu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harunkelesoglu/log-parser/issues"
+  },
+  "homepage": "https://github.com/harunkelesoglu/log-parser#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harunkelesoglu/log-parser.git"
+  },
   "scripts": {
     "build": "tsc",
     "start": "npm build && node dist/parser.js",
@@ -15,8 +25,7 @@
     "test": "jest --config=jest.config.ts",
     "release": "semantic-release"
   },
-  "author": "harun.kelesoglu19@gmail.com",
-  "license": "MIT",
+  "private": false,
   "engines": {
     "npm": ">=9.5.1",
     "node": ">=18.0.0"
@@ -41,10 +50,6 @@
   },
   "dependencies": {
     "commander": "^11.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/harunkelesoglu/log-parser.git"
   },
   "release": {
     "branches": [
