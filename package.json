@@ -13,7 +13,7 @@
     "debug": "ts-node src/parser.ts",
     "lint": "eslint . --ext .ts",
     "test": "jest --config=jest.config.ts",
-    "release":"semantic-release"
+    "release": "semantic-release"
   },
   "author": "harun.kelesoglu19@gmail.com",
   "license": "MIT",
