@@ -19,7 +19,7 @@ This command installs the Log Parser CLI globally, making it available as a comm
 The Log Parser CLI can be used to extract and filter log entries from log files. It provides various options to customize the filtering process. Here's the basic command structure:
 
 ```bash
-log-parser --parse <logLevel> --input <inputFile> --output <outputFile> [--details <regex>] [--error <regex>]
+log-parser --parse <logLevel> --input <inputFile> --output <outputFile> --details <regex> --error <regex>
 ```
 
 ### Options:
